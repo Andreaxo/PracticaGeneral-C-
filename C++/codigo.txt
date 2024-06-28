@@ -1,0 +1,52 @@
+/******************************************************************************
+
+                              Online C++ Compiler.
+               Code, Compile, Run and Debug C++ program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <iostream>
+#include <cstring>
+
+using namespace std;
+
+int main()
+{
+
+	char nombre[40];
+	char nombre2[40];
+	int edad[3];
+	int edad2[3];
+	char edadM = 18;
+	cout << "Ingrese la nombre 1: ";
+	cin >> nombre;
+	cout << "Ingrese el nombre 2: ";
+	cin >> nombre2;
+	cout << "Ingrese la edad: ";
+	cin >> edad;
+	cout << "Ingrese la edad: ";
+	cin >> edad2;
+	
+	if (strcmp(edad,edad2)==0) {
+		cout << endl << "Los dos tienen la misma edad";
+	}
+	if (strcmp(edad,edad2)>0){
+	    cout << endl << "El " << nombre << " es mayor de edad";
+	}
+	if (strcmp(edad2,edad)>0) {
+		cout <<  endl << "Es mayor de edad " << nombre2;
+	}
+	if (edad>edadM){
+	    cout << nombre << " es mayor de edad";
+	}else{
+	    cout << nombre <<" Es menor de edad";
+	}
+	if (strcmp(edad2>"18")>=0){
+	    cout << nombre2 << "es mayor de edad";
+	}else{
+	    cout << nombre2 << " es menor de edad";
+	}
+	
+	}
+

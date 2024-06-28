@@ -1,0 +1,55 @@
+Proyecto para aplicación de señas.
+Lengua de señas colombiana.
+
+Evaluamos cómo está el proyecto.
+
+Hacemos unas conclusiones después de una discusión grupal.
+
+10:10 EXPOSICIONES.
+15 mins x grupo.
+
+Introducción -> Moderador.
+Tomar el rol.
+
+Interfaz gráfica
+Experiencia de usuario
+¿Cómo miraría cada quién esta interfaz y cómo se siente?
+
+
+
+Interfaz gráfica:
+
+Es muy infantil, los colores están agradables. las letras se pierden con el fondo.
+Está poco accesible para demás personas que tienen problemas como: ser daltonico, etc.
+
+
+UX: Poco intuitivo -> 
+Es muy infantil -> No está orientado a un público general.
+La gente se aburra, no entienda la aplicación y evite totalmente
+usarla.
+Opciones visualmente reducidas.
+Tamaño del celular o dispositivo del que se usa.
+
+
+
+Sombrero rojo:
+
+En general te sientes adaptada para todo. 
+
+
+Sombrero Blanco:
+Le parece adecuado, interesante, que tenga un modo tanto de práctica
+como de enseñanza.
+
+Sombrero amarillo:
+Un juego que es agradable para enseñar, es sencillo de aprender.
+Y para empezar está bien. 
+
+
+Sombrero verde:
+Estén dispuestas para aprender, y hacer un verdadero funcionamiento  de la app.
+Realizar desde el punto de desarrollador ciertos cambios en pro del app -> Cambiar funciones a mejorar.
+
+
+
+

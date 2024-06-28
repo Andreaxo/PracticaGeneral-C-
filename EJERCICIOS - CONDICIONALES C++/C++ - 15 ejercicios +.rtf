@@ -1,0 +1,457 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang2058{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang10 1. Ingresar dos datos y saber cu\'e1l es el mayor.\par
+int num1;\par
+int num2;\par
+\par
+cout << "Ingrese numero 1: ";\par
+cin >> num1;\par
+cout << "Ingrese numero 2: ";\par
+cin >> num2;\par
+\par
+if (num1>num2)\{\par
+    cout << "El numero es mayor: " << num1;\par
+\} else \{\par
+    cout << "El numero es mayor : " << num2;\par
+\}\par
+\par
+\par
+Condicionales:\par
+2. Ingrese dos n\'fameros por teclado. Si es mayor al segundo entonces informar suma y diferencia. En caso contrario de informaci\'f3n el producto y la divisi\'f3n del primero respecto.\par
+float num1;\par
+float num2;\par
+int suma;\par
+int resta;\par
+int multi;\par
+float division;\par
+\par
+\par
+cout << "Ingrese numero 1: ";\par
+cin >> num1;\par
+cout << "Ingrese numero 2: ";\par
+cin >> num2;\par
+\par
+if (num1 > num2)\{\par
+   suma = num1 + num2;\par
+   resta = num1 - num2;\par
+   cout << "La suma es: " << suma << "\\n";\par
+   cout << "La resta es: " << resta;\par
+\} else \{\par
+    multi = num1 * num2;\par
+    cout << "El producto es: " << multi << "\\n";\par
+    cout << "La division es: " << num1/num2;\par
+\}\par
+\par
+3. Se ingresan tres notas de un aprendiz, si el promedio es mayor o igual a 7, mostrar el mensaje aprobado:\par
+cout << "Ingrese nota 1: ";\par
+cin >> num1;\par
+cout << "Ingrese nota 2: ";\par
+cin >> num2;\par
+cout << "Ingrese nota 3: ";\par
+cin >> num3;\par
+\par
+float promedio = (num1+num2+num3)/3;\par
+\par
+if (promedio>=7)\{\par
+    cout << "Aprobaste, tienes: " << promedio;\par
+\}\par
+else\{\par
+    cout << "No Aprobaste";\par
+\}\par
+\par
+\par
+4. Se ingresa por teclado un n\'famero positivo de uno o dos d\'edgitos y se muestra un mensaje indicando si el n\'famero tiene uno o dos d\'edgitos\par
+int num1;\par
+cout << "Ingrese un numero: ";\par
+cin >> num1;\par
+\par
+if (num1<10)\{\par
+    cout << "El numero tiene un digito es: " << num1;\par
+\}\par
+else\{\par
+    cout << "El numero tiene dos digitos es: " << num1;\par
+\}\par
+5.  Ingresar 5 numeros diferentes por teclado, mostrar por pantalla el menor de ellos, y el mayor de ellos y el valor nulo (0)\par
+5.1  Si ingresan un n\'famero negativo, da error \par
+\par
+int num1;\par
+int num2 ;\par
+int num3 ;\par
+int num4 ;\par
+int num5 ;\par
+\par
+cout << "Ingrese el 1 numero: ";\par
+cin >> num1;\par
+cout << "Ingrese el 2 numero: ";\par
+cin >> num2;\par
+cout << "Ingrese el 3 numero: ";\par
+cin >> num3;\par
+cout << "Ingrese el 4 numero: ";\par
+cin >> num4;\par
+cout << "Ingrese el 5 numero : ";\par
+cin >> num5;\par
+\par
+\par
+\par
+if (num1>num2 and num1>num3 and num1>num4 and num1>num5)\{\par
+    cout << "El numero mayor es: " << num1 << "\\n";\par
+\}\par
+\par
+else if (num2>num1 and num2>num3 and num2>num4 and num2>num5)\{\par
+    cout << "El numero mayor es: " << num2 << "\\n";\par
+    \par
+\}\par
+\par
+else if (num3>num1 and num3>num2 and num3>4 and num3>num5)\{\par
+    cout << "El numero mayor es: " << num3 << "\\n";\par
+\}\par
+   \par
+else if (num4>num1 and num4>num2 and num4>num3 and num4>num5)\{\par
+    cout << "El numero mayor es: " << num4 << "\\n";\par
+\}\par
+\par
+else if (num5>num1 and num5>num2 and num5>num3 and num5>num4)\{\par
+    cout << "El numero mayor es: " << num5 << "\\n";\par
+\}\par
+\par
+//Menores: \par
+if (num1<num2 and num1<num3 and num1<num4 and num1<num5)\{\par
+    cout << "El numero menor es: " << num1 << "\\n";\par
+\}\par
+\par
+else if (num2<num1 and num2<num3 and num2<num4 and num2<num5)\{\par
+    cout << "El numero menor es: " << num2 << "\\n";\par
+    \par
+\}\par
+\par
+else if (num3<num1 and num3<num2 and num3<4 and num3<num5)\{\par
+    cout << "El numero menor es: " << num3 << "\\n";\par
+\}\par
+   \par
+else if (num4<num1 and num4<num2 and num4<num3 and num4<num5)\{\par
+    cout << "El numero menor es: " << num4 << "\\n"; \par
+\}\par
+\par
+else if (num5<num1 and num5<num2 and num5<num3 and num5<num4)\{\par
+    cout << "El numero menor es: " << num5 << "\\n";\par
+\}\par
+\par
+//Valores nulos\par
+if (num1==0)\{\par
+    cout << "El numero 1 es nulo: " << num1;\par
+\}\par
+\par
+else if (num2==0)\{\par
+    cout << "El numero 2 es nulo: " << num2;\par
+    \par
+\}\par
+\par
+else if (num3==0)\{\par
+    cout << "El numero 3 es nulo: " << num3;\par
+\}\par
+   \par
+else if (num4==0)\{\par
+    cout << "El numero 4 es nulo: " << num4;\par
+\}\par
+\par
+else if (num5==0)\{\par
+    cout << "El numero 5 es nulo: " << num5;\par
+\}\par
+if (num1<0 or num2<0 or num3<0 or num4<0 or num5<0)\{\par
+    cout << "\\n El numero es negativo, hay error en el sistema";\par
+\}\par
+return 0;\par
+\par
+6. Cargar una fecha, dia/mes/a\'f1o por teclado, e imprimir si estamos en el primer, segundo o tercer trimestre del a\'f1o.\par
+\par
+    int dia;\par
+    int mes;\par
+    int a\'f1o;\par
+    \par
+    cout << "--------- Fecha -------------" << "\\n";\par
+    cout << "Ingresa el d\'eda: ";\par
+    cin >> dia;\par
+    cout << "Ingresa el mes: ";\par
+    cin >> mes;\par
+    cout << "Ingresa el a\'f1o: ";\par
+    cin >> a\'f1o;\par
+    \par
+    if (mes<=3)\{\par
+        cout << "Este es el primer trimestre del a\'f1o " << a\'f1o;\par
+    \}\par
+    else if (mes>3 and mes<=6)\{\par
+        cout << "Este es el segundo trimestre del a\'f1o " << a\'f1o;\par
+    \}\par
+    \par
+    else if(mes>6 and mes<=9)\{\par
+        cout << "Este es el tercer trimestre del a\'f1o " << a\'f1o;\par
+    \}\par
+    else if(mes>9 and mes<=12)\{\par
+        cout << "Este es el cuarto trimestre del a\'f1o " << a\'f1o;\par
+    \}\par
+\par
+7. Si la fecha es 25 de diciembre decir que es navidad\par
+    int dia;\par
+    int mes;\par
+    int a\'f1o;\par
+    \par
+    cout << "--------- Fecha -------------" << "\\n";\par
+    cout << "Ingresa el d\'eda: ";\par
+    cin >> dia;\par
+    cout << "Ingresa el mes: ";\par
+    cin >> mes;\par
+    cout << "Ingresa el a\'f1o: ";\par
+    cin >> a\'f1o;\par
+    \par
+    if (mes<=3)\{\par
+        cout << "Este es el primer trimestre del a\'f1o " << a\'f1o;\par
+    \}\par
+    else if (mes>3 and mes<=6)\{\par
+        cout << "Este es el segundo trimestre del a\'f1o " << a\'f1o;\par
+    \}\par
+    \par
+    else if(mes>6 and mes<=9)\{\par
+        cout << "Este es el tercer trimestre del a\'f1o " << a\'f1o;\par
+    \}\par
+    else if(mes>9 and mes<=12)\{\par
+        cout << "Este es el cuarto trimestre del a\'f1o " << a\'f1o;\par
+    \}\par
+    \par
+    if(dia==25 and mes==12)\{\par
+        cout << "\\n \'a1Feliz navidad! es 25 de diciembre";\par
+    \}\par
+    if(dia==1 and mes==1)\{\par
+        cout << "\\n \'a1Prospero a\'f1o!"\par
+    \}\par
+\par
+8. De un programador se conoce su salario y a\'f1os de antiguedad, se pide un programa que lea los datos de entrada y informe \par
+A. Si su salario es inferior al salario minimo y Su antiguedad es igual o superior a 10 a\'f1os -> Otogarle un 20% de aumento. Imprimir su salario.\par
+B. Si su salario es inferior al salario minimo, pero su antiguedad es menor a 10 a\'f1os. Otorgarle un aumento de 5% -> Imprimir su salario.\par
+C. Si su salario es menor al minimo, mostrar el salario en pantalla.\par
+int salarioMinimo = 1300000;\par
+int salario;\par
+int antiguedad;\par
+\par
+cout << "Ingrese su salario: ";\par
+cin >> salario;\par
+cout << "Ingrese los a\'f1os de antiguedad";\par
+cin >> antiguedad;\par
+\par
+if (salario<salarioMinimo and antiguedad>=10)\{\par
+    int aumento = salario*0.2;\par
+    cout << "Su salario tuvo un aumento del 20% " << aumento+salario;\par
+\}\par
+if (salario<salarioMinimo and antiguedad<10)\{\par
+    int aumento2 = salario*0.05;\par
+    cout << "Su salario tuvo un aumento del 5% " << aumento2+salario; \par
+\}\par
+else\{\par
+    cout << "Su salario es de:" << salario;\par
+\}\par
+\par
+9. Numeros del 1 al 1000:\par
+for (int i; i<=1000; i++)\{\par
+    cout << i << "\\n"\par
+\par
+10. Programa que me permita ingresar 10 numeros, suma y promedio:\par
+int num1, num2, num3, num4, num5, num6, num7, num8, num9, num10;\par
+cout << "Ingrese un n\'famero: ";\par
+cin >> num1;\par
+cout << "Ingrese un n\'famero: ";\par
+cin >> num2;\par
+cout << "Ingrese un n\'famero: ";\par
+cin >> num3;\par
+cout << "Ingrese un n\'famero: ";\par
+cin >> num4;\par
+cout << "Ingrese un n\'famero: ";\par
+cin >> num5;\par
+cout << "Ingrese un n\'famero: ";\par
+cin >> num6;\par
+cout << "Ingrese un n\'famero: ";\par
+cin >> num7;\par
+cout << "Ingrese un n\'famero: ";\par
+cin >> num8;\par
+cout << "Ingrese un n\'famero: ";\par
+cin >> num9;\par
+cout << "Ingrese un n\'famero: ";\par
+cin >> num10;\par
+\par
+int suma = (num1+num2+num3+num4+num5+num6+num7+num8+num9+num10);\par
+\par
+cout << "La suma es: " <<suma << "\\n";\par
+cout << "El promedio es: " << suma/10;\par
+\par
+11. N\'fameros de 8 en 8 al 8000:\par
+for (int i = 0; i<=8000; i+=8)\{\par
+    cout << i << "\\n";\par
+\}\par
+return 0;\par
+\par
+12. Ingresar 10 n\'fameros enteros, mostrar cuantos valores ingresados fueron multiplos de 3 y cuantos de 5, tener en cuenta cuales son de 3 y de 5 a la vez\par
+int num1, num2, num3, num4, num5, num6, num7, num8, num9, num10;\par
+\par
+cout << "Ingresa un digito: ";\par
+cin >> num1;\par
+cout << "Ingresa un digito: ";\par
+cin >> num2;\par
+cout << "Ingresa un digito: ";\par
+cin >> num3;\par
+cout << "Ingresa un digito: ";\par
+cin >> num4;\par
+cout << "Ingresa un digito: ";\par
+cin >> num5;\par
+cout << "Ingresa un digito: ";\par
+cin >> num6;\par
+cout << "Ingresa un digito: ";\par
+cin >> num7;\par
+cout << "Ingresa un digito: ";\par
+cin >> num8;\par
+cout << "Ingresa un digito: ";\par
+cin >> num9;\par
+cout << "Ingresa un digito: ";\par
+cin >> num10;\par
+\par
+if (num1%3==0 and num1%5==0)\{\par
+    cout << "El numero " << num1 << ": es multiplo de 5 y 3" << endl;\par
+\}\par
+else if(num1%3==0)\{\par
+    cout << "El numero " << num1 << " Es multiplo de 3" << endl;\par
+\}\par
+else if(num2%3==0)\{\par
+    cout << "El numero 1" << num2 << " Es multiplo de 3"<< endl;\par
+\}\par
+else if (num1%5==0)\{\par
+    cout << "El numero " << num1 << " es multiplo de 5"<< endl;\par
+\}\par
+else if(num3%3==0)\{\par
+    cout << "El numero " << num3 << " Es multiplo de 3" << endl;\par
+\}\par
+if (num2%5==0)\{\par
+    cout << "El numero " << num2 << " es multiplo de 5" << endl;\par
+\}\par
+if(num4%3==0)\{\par
+    cout << "El numero " << num4 << " Es multiplo de 3" << endl;\par
+\}\par
+if (num3%5==0)\{\par
+    cout << "El numero " << num3 << " es multiplo de 5" << endl;\par
+\}\par
+if(num5%3==0)\{\par
+    cout << "El numero " << num5 << " Es multiplo de 3" << endl;\par
+\}\par
+if (num4%5==0)\{\par
+    cout << "El numero " << num4 << " es multiplo de 5" << endl;\par
+\}\par
+if(num6%3==0)\{\par
+    cout << "El numero " << num6 << " Es multiplo de 3" << endl;\par
+\}\par
+if (num5%5==0)\{\par
+    cout << "El numero " << num5 << " es multiplo de 5" << endl;\par
+\}\par
+if(num7%3==0)\{\par
+    cout << "El numero " << num7 << " Es multiplo de 3" << endl;\par
+\}\par
+if (num6%5==0)\{\par
+    cout << "El numero " << num6 << " es multiplo de 5"<< endl;\par
+\}\par
+if(num8%3==0)\{\par
+    cout << "El numero " << num8 << " Es multiplo de 3" << endl;\par
+\}\par
+if (num7%5==0)\{\par
+    cout << "El numero " << num7 << " es multiplo de 5" << endl;\par
+\}\par
+if(num9%3==0)\{\par
+    cout << "El numero " << num9 << " Es multiplo de 3" << endl;\par
+\}\par
+if (num8%5==0)\{\par
+    cout << "El numero " << num8 << " es multiplo de 5" << endl;\par
+\}\par
+if(num10%3==0)\{\par
+    cout << "El numero " << num10 << " Es multiplo de 3" << endl;\par
+\}\par
+if (num9%5==0)\{\par
+    cout << "El numero " << num9 << " es multiplo de 5" << endl;\par
+\}\par
+\par
+if (num10%5==0)\{\par
+    cout << "El numero " << num10 << " es multiplo de 5" << endl;\par
+\}\par
+\par
+13. Un programa que me lea n n\'fameros enteros y calcule la cantidad de valores mayores o iguales a 1000\par
+\par
+int num;\par
+\par
+cout << "Ingrese un numero: ";\par
+cin >> num;\par
+\par
+if (num>=1000)\{\par
+    cout << "El numero es mayor a 1000 es: " <<num;\par
+\}else\{\par
+    cout << "El numero es menor a 1000";\par
+    \}\par
+14. Cuenta con la siguiente informaci\'f3n: Edades de 4  estudiantes en la ma\'f1ana, edades de 4 estudiantes en la tarde, edades de 7 estudiantes en la noche y las edades se deben ingresar por teclado\par
+a. Promedio de las edades de cada turno, 3 promedios\par
+    b. Imprimir los n\'fameros de cada turno\par
+    c. mostrar un mensaje con la jornada que tiene el promedio de edad mayor\par
+\par
+\par
+#include <iostream>\par
+\par
+using namespace std;\par
+\par
+int main()\{\par
+    int edad;\par
+    int edadM;\par
+    int edadT;\par
+    int edadN;\par
+    for(int i = 0; i<4;i++)\{\par
+        cout << "Ingrese la edad del estudiante: " << endl;\par
+        cin >> edad;\par
+        cout << "La edad es " << edad << endl;\par
+        edadM += edad;\par
+        if (i==3)\{\par
+            cout << "El promedio del turno de la ma\'f1ana es: " << edadM/4 << "\\n";\par
+        \}\par
+    \}\par
+    // cout << edadM << "\\n";\par
+    \par
+    for (int i=0; i<4; i++)\{\par
+        cout << "Ingrese la edad del estudiante: " << endl;\par
+        cin >> edad;\par
+        cout << "La edad es " << edad << endl;\par
+        edadT += edad;\par
+        \par
+        if (i==3)\{\par
+            cout << "El promedio del turno de la tarde es: " << edadT/4 << "\\n";\par
+        \}\par
+        \par
+    \}\par
+    // cout << edadT << "\\n";\par
+    \par
+    for (int i=0; i<7; i++)\{\par
+        cout << "Ingrese la edad del estudiante: "<<endl;\par
+        cin >> edad;\par
+        cout << "La edad es " << edad << endl;\par
+        edadN += edad;\par
+        if(i==3)\{\par
+            cout << "El promedio del turno de la noche es: " << edadN/7;\par
+        \}\par
+        \par
+    \}\par
+        \par
+    return 0;\par
+\}\par
+\par
+\par
+ADICIONAL: \par
+WHILE CON NUMERO DEL 1 AL 5:\par
+int i=0;\par
+    while(i<5)\{\par
+    i=i+1;\par
+    cout << i <<endl;\par
+    \}\par
+\par
+\par
+\par
+\par
+}
+ 

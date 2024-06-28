@@ -1,0 +1,68 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main(){
+
+char c[9] [1];
+
+int opcionComputadora;
+ 
+for (int i=1; i<=9 ; i++){
+
+string variable="";
+string variable2 = "";
+cout << "Vamos a jugar triki! " << endl;
+cout << c1 << "|"<<  c2 << "|" << c3 <<endl;
+cout << c4 << "|"<<  c5 << "|" << c6 <<endl;
+cout << c7 << "|"<<  c8 << "|" << c9 <<endl;
+cout << endl;
+cout << "¿Qué casilla eliges?";
+cin >> variable;
+
+
+if (c1==variable)
+  {
+      c1="O";
+  }
+  if (c2==variable)
+  {
+      c2="O";
+  }
+  if (c3==variable)
+  {
+      c3="O";
+  }
+  if (c4==variable)
+  {
+      c4="O";
+  }
+  if (c5==variable)
+  {
+      c5="O";
+  }
+  if (c6==variable)
+  {
+      c6="O";
+  }
+  if (c7==variable)
+  {
+      c7="O";
+  }
+  if (c8==variable)
+  {
+      c8="O";
+  }
+  if (c9==variable)
+  {
+      c9="O";
+  }
+  do{
+    opcionComputadora = rand()%9+1;
+    variable2 = opcionComputadora;
+    }   while(variable2!=c1)
+         c[opcionComputadora]="X";
+    
+}
+  
+}
